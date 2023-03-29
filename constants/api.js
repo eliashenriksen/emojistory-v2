@@ -1,1 +1,1 @@
-export const DATAMUSE_BASE_URL = "https://api.datamuse.com";
+export const OPENAI_BASE_URL = "https://api.openai.com";
