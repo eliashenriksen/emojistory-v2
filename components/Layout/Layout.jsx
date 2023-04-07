@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/Container";
-import styles from "../../styles/Layout.module.css";
+import styles from "../../styles/components/Layout.module.css";
+import Head from "next/head";
 
 
 
@@ -7,10 +8,10 @@ export default function Layout({ title, children, backButton, pageTitle, pageDes
 
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} key="desc"></meta>
-      </Head> */}
+      </Head>
       <div className="pageWrapper">
         <header>
           {/* <Navigation></Navigation> */}
@@ -23,9 +24,9 @@ export default function Layout({ title, children, backButton, pageTitle, pageDes
           </Container>
           {/* <ScrollToTopButton></ScrollToTopButton> */}
         </main>
-        {/* <footer className={styles.footer}>
+        <footer className={styles.footer}>
           <p>EmojiStory</p>
-        </footer> */}
+        </footer>
       </div>
     </>
   );

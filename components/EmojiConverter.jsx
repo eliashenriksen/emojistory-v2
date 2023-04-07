@@ -4,7 +4,7 @@ import { useState } from "react";
 import axios from "axios";
 import GraphemeSplitter from "grapheme-splitter";
 
-export default function Backbone() {
+export default function EmojiConverter() {
 
   const [storyInputValue, setStoryInputValue] = useState("");
   const [storyOutputEmojis, setStoryOutputEmojis] = useState([]);
@@ -45,12 +45,12 @@ export default function Backbone() {
   }
 
   return(
-    <>
+    <section>
       <div>{storyOutputEmojis}</div>
       <form onSubmit={generateStory}>
         <input onChange={(e) => setStoryInputValue(e.target.value)} type="text" id="storyinput" name="storyinput"></input>
         <button>Go!</button>
       </form>
-    </>
+    </section>
   )
 }
