@@ -1,0 +1,13 @@
+.homeTopContent {
+    margin-top: -30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeTopContentP {
+    max-width: 35rem;
+    margin: 0px;
+    margin-bottom: 2rem;
+}

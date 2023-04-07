@@ -1,6 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --textcoldark: #4a4a4a;
+  --brandcol1: white;
+}
+
 body {
+  margin: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  background: rgb(255,233,0);
+  background: linear-gradient(221deg, rgba(255,233,0,1) 23%, rgba(0,255,224,1) 82%);
+}
+
+main {
+  background-color: white;
+  width: 100%;
+  min-height: 25rem;
+  margin-top: 32rem;
+}
+
+input, button {
+  color: var(--textcoldark);
+}
+
+h1, h2, h3, h4, h5, input, button, label, ::placeholder, p {
+  font-family: 'Comfortaa', cursive;
+  color: var(--textcoldark);
+}
+
+.custom-shape-divider-bottom-1680863704 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1680863704 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 123px;
+}
+
+.custom-shape-divider-bottom-1680863704 .shape-fill {
+  fill: url(#lgrad);
+}
+
+.custom-shape-divider-bottom-1680863704-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1680863704-2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 123px;
+}
+
+.custom-shape-divider-bottom-1680863704-2 .shape-fill-2 {
+  fill: white;
 }

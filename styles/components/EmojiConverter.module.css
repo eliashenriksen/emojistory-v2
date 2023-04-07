@@ -1,0 +1,86 @@
+
+.emojiConverterWhole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    box-shadow: 0px 3px 6px #00000045;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.365);
+    backdrop-filter: blur(10px);
+    margin-top: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.emojiConverterWrapper {
+    background-color: rgba(255, 255, 255, 0.306);
+    padding: 5rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.emojiConverterStoryOutput {
+    margin-bottom: 2rem;
+    font-size: 48px;
+}
+
+.emojiConverterLoading {
+    font-size: 20px;
+}
+
+.emojiConverterForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emojiConverterFormInput {
+    border-radius: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 10rem;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: #c2c2c211;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 2px 5px #00000045;
+    transition: border-radius 2s, width 2s, box-shadow 2s;
+    z-index: 999;
+}
+
+.emojiConverterFormInput::placeholder {
+    color: rgb(143, 143, 143);
+}
+
+.emojiConverterFormInput:focus {
+    box-shadow: 0px 2px 5px #00000045;
+    border-radius: 0.5rem;
+    width: 15rem;
+    border: none;
+    outline: none;
+}
+
+.emojiConverterFormButton {
+    z-index: 999;
+    width: 10rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: none;
+    box-shadow: 0px 3px 6px #00000045;
+    transition: border-radius 2s;
+    background: rgb(255,233,0);
+    background: linear-gradient(221deg, rgba(255,233,0,1) 23%, rgba(0,255,224,1) 82%);
+}
+
+.emojiConverterFormButton:hover {
+    box-shadow:  -5px 5px 10px #d9d9d9,
+                5px -5px 10px #ffffff;
+    background: linear-gradient(221deg, rgba(255,233,0,1) 23%, rgba(0,255,224,1) 82%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
