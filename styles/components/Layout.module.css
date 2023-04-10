@@ -1,6 +1,6 @@
 .pageWrapper {
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 99vh;
+  min-width: 99vw;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -14,16 +14,7 @@
   align-items: center !important;
 }
 
-.shapeDividerHolder, .shapeDividerHolder2 {
-  position: relative;
-}
-
-.shapeDividerHolder2 {
-  margin-top: 1rem;
-}
-
 .footer {
-  background-color: white;
   min-height: 10rem;
   margin: 0px;
   display: flex;
