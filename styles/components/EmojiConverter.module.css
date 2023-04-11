@@ -8,6 +8,7 @@
     border-radius: 2rem;
     box-shadow: 0px 3px 6px #00000045;
     z-index: 99;
+    /* background: rgba(255, 255, 255, 0.365); */
     background: rgba(255, 255, 255, 0.365);
     backdrop-filter: blur(10px);
     margin-top: 1rem;

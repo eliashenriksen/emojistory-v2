@@ -11,11 +11,10 @@ body {
   justify-content: center;
   align-items: center;
   background: rgb(255,233,0);
-  background: linear-gradient(221deg, rgba(255,233,0,1) 23%, rgba(0,255,224,1) 82%);
+  background: linear-gradient(221deg, rgb(255, 233, 0) 23%, rgba(0,255,224,1) 82%);
 }
 
 main {
-  background-color: white;
   width: 100%;
   min-height: 25rem;
   margin-top: 32rem;
@@ -28,46 +27,4 @@ input, button {
 h1, h2, h3, h4, h5, input, button, label, ::placeholder, p {
   font-family: 'Comfortaa', cursive;
   color: var(--textcoldark);
-}
-
-.custom-shape-divider-bottom-1680863704 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1680863704 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 123px;
-}
-
-.custom-shape-divider-bottom-1680863704 .shape-fill {
-  fill: url(#lgrad);
-}
-
-.custom-shape-divider-bottom-1680863704-2 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1680863704-2 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 123px;
-}
-
-.custom-shape-divider-bottom-1680863704-2 .shape-fill-2 {
-  fill: white;
 }
