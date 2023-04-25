@@ -9,10 +9,9 @@
     box-shadow: 0px 3px 6px #00000045;
     z-index: 99;
     /* background: rgba(255, 255, 255, 0.365); */
-    background: rgba(255, 255, 255, 0.365);
+    background: linear-gradient(221deg, rgba(255, 234, 0, 0.425) 23%, rgba(0, 255, 225, 0.452) 82%);
     backdrop-filter: blur(10px);
     margin-top: 1rem;
-    position: sticky;
     top: 0;
 }
 
@@ -25,6 +24,7 @@
     padding: 5rem;
     border-radius: 2rem;
     backdrop-filter: blur(10px);
+    width: 50rem;
 }
 
 .emojiConverterStoryOutput {
@@ -79,13 +79,20 @@
     transition: border-radius 2s;
     background: rgb(255,233,0);
     background: linear-gradient(221deg, rgba(255,233,0,1) 23%, rgba(0,255,224,1) 82%);
+    transition: color 1s, background 2s;
 }
 
-.emojiConverterFormButton:hover {
+/* .emojiConverterFormButton:hover {
     box-shadow:  -5px 5px 10px #d9d9d9,
                 5px -5px 10px #ffffff;
     background: linear-gradient(221deg, rgba(255,233,0,1) 23%, rgba(0,255,224,1) 82%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
     cursor: pointer;
+} */
+
+.emojiConverterFormButton:hover {
+    cursor: pointer;
+    color: white;
+    background: var(--textcoldark);
 }

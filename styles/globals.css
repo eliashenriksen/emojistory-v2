@@ -12,12 +12,16 @@ body {
   align-items: center;
   background: rgb(255,233,0);
   background: linear-gradient(221deg, rgb(255, 233, 0) 23%, rgba(0,255,224,1) 82%);
+  height: 929px;
 }
 
 main {
-  width: 100%;
-  min-height: 25rem;
-  margin-top: 32rem;
+  height: 100%;
+  margin: 0rem;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input, button {

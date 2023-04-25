@@ -25,6 +25,7 @@ const openai = new OpenAIApi(configuration);
 //////////////////////////////////////////////
 
 export default async function handler(req, res) {
+//Ratelimiter
 /*   const identifier = "api";
   const rateLimitResult = await ratelimit.limit(identifier);
   res.setHeader('X-RateLimit-Limit', rateLimitResult.limit)

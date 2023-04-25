@@ -1,0 +1,21 @@
+.backgroundEmojisWrapper {
+  height: 929px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.backgroundEmojis {
+  max-width: 80rem;
+  font-size: 200px;
+  opacity: 30%;
+  user-select: none;
+  position: absolute;
+  right: 5rem;
+  top: 20rem;
+  transform: rotate(-30deg);
+  padding: 0px;
+  margin: 0px;
+}
